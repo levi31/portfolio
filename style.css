@@ -6285,6 +6285,21 @@ a {
   display: none;
 }
 
+.image-22 {
+  direction: ltr;
+  transform: rotate(0);
+}
+
+.scrolltext {
+  color: #9a9a9a;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+.div-block-13 {
+  transform: translate(-2px, 300px)rotate(90deg);
+}
+
 @media screen and (min-width: 1440px) {
   .what-i-do {
     grid-column-gap: 20px;
@@ -7916,6 +7931,11 @@ a {
     margin-bottom: 30px;
     margin-right: 0;
   }
+
+  .div-block-13 {
+    opacity: 1;
+    transform: translate(26px, 120px)rotate(90deg);
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -7946,6 +7966,8 @@ a {
 
   .headline-wrap {
     max-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .navbar {
@@ -8501,6 +8523,14 @@ a {
 
   .pricing-block-2 {
     margin-bottom: 10px;
+  }
+
+  .image-22 {
+    opacity: .38;
+  }
+
+  .div-block-13 {
+    transform: translate(-17px, 120px)rotate(90deg);
   }
 }
 
